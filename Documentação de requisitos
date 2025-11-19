@@ -1,0 +1,67 @@
+ Esquerda: A
+  - Direita: D
+- Salto: Espaço
+- Correr / Sprint: Ctrl (segurar) ou Shift (alternar) — implementar opção de escolha
+- Correr / Ctrl (segurar) ou Shift (alternar) — implementar opção de escolha
+- Agachar: Shift (segurar) ou C (alternar)
+- Mirar: Botão direito do mouse (RMB)
+- Atacar / Atirar / Lançar: Botão esquerdo do mouse (LMB)
+- Rolamento / Esquiva: Barra de espaço + direção ou double-tap em direção
+- Bloquear / Parry: Q ou RMB + tecla (dependendo do contexto)
+- Interagir / Pegar / Conversar: E
+- Bloquear /  Q ou RMB + tecla (dependendo do contexto)
+- Interagir / Conversar: E
+- Usar item rápido (cura): R
+- Habilidade rápida (slots 1–4): 1, 2, 3, 4
+- Ciclar armas / feitiços: Scroll do mouse
+- Abrir inventário: I
+- Abrir mapa: M
+- Abrir menu / Pausar: Esc
+- Alternar alvo / Lock-on: Tab
+- Emote / Comunicação: T
+- Alternar câmera (1ª / 3ª pessoa): V
+- Auto-run: NumLock
+- Quick-save / Quick-load (checkpoint): F5 / F9
+- Gravador de macros (opcional): tecla configurável
+
+RF002 - Suporte a remapeamento de teclas (Prioridade: Alta)
+- Permitir remapear todas as ações do jogo via menu.
+- Salvar mapeamentos por perfil de jogador.
+- Opção de restaurar padrão.
+
+RF003 - Suporte a gamepad (Prioridade: Média)
+- Layout recomendado:
+  - Movimento: Left Stick
+  - Câmera: Right Stick
+  - Ataque: RT (R2)
+  - Mirar / Segurar magia: LT (L2)
+  - Habilidades: X / Y / B / A
+  - Esquiva / Rolagem: B (ou A)
+  - Interagir: X
+  - D-Pad: Ciclar itens / atalhos
+  - Menu / Pause: Start / Options
+  - Lock-on: Press Left Stick (L3) ou botão dedicado
+- Remapear botões do gamepad nas configurações.
+
+RF004 - Suporte a mobile / touch (Prioridade: Média)
+
+
+RF003 - Suporte a mobile / touch (Prioridade: Média)
+- Joystick virtual esquerdo para movimento, direito para câmera.
+- Tap direito: ataque; Hold direito: carregar ataque/mirar.
+- Swipe para esquiva; double-tap para sprint.
+- Hotbar com 4 slots visíveis + gesto para abrir mais.
+- Botão contextual único para interagir.
+- Opções de sensibilidade e layout ajustáveis.
+
+RF005 - Acessibilidade (Prioridade: Média)
+RF004 - Acessibilidade (Prioridade: Média)
+- Inverter eixo Y.
+- Legendas e texto configurável.
+- Modo daltonismo / contraste.
+- Tamanho de HUD e botões ajustáveis.
+- Suporte a entrada alternativa (teclado só, gamepad só).
+- Suporte a entrada alternativa (teclado , tela).
+
+REQUISITOS NÃO FUNCIONAIS (RNF)
+- RNF001: Latência de input aceitável < 50ms para ações principais.
